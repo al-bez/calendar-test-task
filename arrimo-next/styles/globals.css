@@ -1,0 +1,54 @@
+
+body {
+  background-color: #ccc !important; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif !important;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.action-buttons{
+ text-align: end;
+}
+
+.action-buttons button{
+  margin-left: 10px;
+}
+
+.delete-btn{
+display: flex;
+justify-content: end;
+color: #ff0000;
+font-size: 20px;
+cursor: pointer;
+}
+
+.loader{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_bg{
+  background: #2c3e50;
+}
+.color-animo{
+  color:#fff;
+  cursor: pointer;
+}
+.color-btn{
+  color:#2c3e50;
+  font-weight:600;
+}
+.fc-toolbar-title{
+  color:#2c3e50;
+}
